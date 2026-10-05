@@ -1,0 +1,15 @@
+.git/*
+.git
+.terraform*
+.terraform/
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
