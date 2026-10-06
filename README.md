@@ -37,5 +37,31 @@ Provision a Docker container on an AWS EC2 instance using Terraform.
 1. terraform destory
 # Output
 1. Apply complete! Resources: 0 added, 0 changed, 2 destroyed.
+# Provision a local Docker container using Terraform
+1. Install terrform on windows local machine
+2. Run on powershell winget install Hashicorp.Terraform
+3. terraform -version
+# Install Docker destop WSL
+1. Open docker destop and wait until it is running.
+2. net localgroup docker-users user-name /add
+3. net localgroup docker-users
+# Create terraform congiguration file
+1. local.tf
+#Run Terraform 
+1. terraforn init initializes the working directory
+2. Terraform validate to validate the plan
+3. Terraform plan to preview resources
+4. Teeraform apply
+# Output
+1. Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+# Access application locally
+1. curl http://localhost:8080
+# Access application on browser
+1. http://localhost:8080
+# This configuration:
+1. Uses the Kreuzwerker Docker provider.
+2. Downloads the nginx:latest image if necessary.
+3. Creates a container named terraform-nginx.
+4. Maps localhost:8080 → container port 80.
 # END
 
