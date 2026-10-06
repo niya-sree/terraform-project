@@ -63,5 +63,7 @@ Provision a Docker container on an AWS EC2 instance using Terraform.
 2. Downloads the nginx:latest image if necessary.
 3. Creates a container named terraform-nginx.
 4. Maps localhost:8080 → container port 80.
+# Destroy resources
+1. terraform destroy
 # END
 
