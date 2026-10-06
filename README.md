@@ -65,5 +65,6 @@ Provision a Docker container on an AWS EC2 instance using Terraform.
 4. Maps localhost:8080 → container port 80.
 # Destroy resources
 1. terraform destroy
+2. Destroy complete! Resources: 2 destroyed.
 # END
 
